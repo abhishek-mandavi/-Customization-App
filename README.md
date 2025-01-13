@@ -19,9 +19,9 @@
 
 ## Features
 
-- **3D Swag Generation**: Generate unique 3D shirts/swag items dynamically
-- ** Color Customization**: Apply any color to the 3D shirt/swag for personalized styling.
- Logo Upload Functionality: Enable users to upload any file as a logo, integrating it seamlessly onto the 3D shirt.
+👉 3D Swag Generation: Generate unique 3D shirts/swag items dynamically
+
+👉 Color Customization: Apply any color to the 3D shirt/swag for personalized styling.
 
 👉 Texture Image Upload: Allow users to upload texture images to style the 3D shirt/swag.
 
@@ -38,3 +38,41 @@
 👉 Framer Motion Animation: Implement framer motion animations for smooth transitions between different 3D models.
 
 and many more, including code architecture and reusability
+
+---
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js: [Download Node.js](https://nodejs.org/)
+
+### Steps
+
+1. **Install dependencies**:
+    For the backend:
+    
+    cd server
+    npm install
+    
+
+    For the frontend:
+    
+    cd client
+    npm install
+    
+
+
+2. **Set up environment variables**: Create a `.env` file in the backend directory. See [Environment Variables](#environment-variables).
+
+3. **Run the app**:
+    - Backend (Node.js):
+      
+      cd server
+      npm start
+     
+
+    - Frontend (React):
+   
+      cd client
+      npm run dev
